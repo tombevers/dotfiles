@@ -11,3 +11,4 @@
     lg = log
 [core]
     autocrlf = input
+	editor = /usr/bin/vim
