@@ -1,14 +1,13 @@
 [user]
-	name = Tom Bevers
-	email = tom.bevers@printconcept.com
+    name = Tom Bevers
 [color]
-	ui = true
+    ui = true
 [alias]
-	st = status
-	ci = commit
-	br = branch
-	co = checkout
-	df = diff
-	lg = log
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log
 [core]
-	autocrlf = input
+    autocrlf = input

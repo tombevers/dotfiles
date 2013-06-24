@@ -1,0 +1,9 @@
+let g:solarized_termtrans=0
+let g:solarized_contrast="normal"
+let g:solarized_visibility="normal"
+
+set guifont=Monaco\ for\ Powerline
+let g:Powerline_symbols = 'fancy'
+
+" Disable relative row numbers
+UnBundle 'myusuf3/numbers.vim'
