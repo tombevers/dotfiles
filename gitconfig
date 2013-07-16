@@ -12,3 +12,5 @@
 [core]
     autocrlf = input
 	editor = /usr/bin/vim
+[pager]
+	status = true
