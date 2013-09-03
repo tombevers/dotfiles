@@ -13,4 +13,4 @@
     autocrlf = input
 	editor = /usr/bin/vim
 [pager]
-	status = true
+	status = false
