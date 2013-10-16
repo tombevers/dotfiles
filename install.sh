@@ -17,6 +17,7 @@ cd $dir
 echo "...done"
 
 echo "Setting up symlinks"
+ln -s ~/dotfiles/zshrc ~/.zshrc
 ln -s ~/dotfiles/vimrc.local ~/.vimrc.local
 ln -s ~/dotfiles/vimrc.bundles.local ~/.vimrc.bundles.local
 ln -s ~/dotfiles/tmux.conf ~/.tmux.conf
