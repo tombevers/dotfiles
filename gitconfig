@@ -12,5 +12,6 @@
 [core]
     autocrlf = input
 	editor = /usr/bin/vim
+	excludesfile = ~/dotfiles/gitignore
 [pager]
 	status = false
