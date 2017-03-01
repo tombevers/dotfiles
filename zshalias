@@ -1,6 +1,6 @@
 # Aliases
 alias tmux="TERM=screen-256color-bce tmux"
-alias composer='php /usr/bin/composer.phar'
+#alias composer='php /usr/bin/composer.phar'
 
 # Include private aliases if file does exist
 if [ -f ~/Dropbox/zshalias ]; then
