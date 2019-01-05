@@ -50,8 +50,10 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 export PATH=/usr/local/share/npm/bin:$PATH
 
+export PATH="$(brew --prefix)/bin:$PATH"
+
 # GRC colorizes nifty unix tools all over the place
-source `brew --prefix`/etc/grc.bashrc
+#source `brew --prefix`/etc/grc.bashrc
 
 # Exports
 source ~/dotfiles/exports

@@ -8,8 +8,11 @@
     br = branch
     co = checkout
     df = diff
-    #lg = log
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+    recent-branches="for-each-ref --sort=-committerdate --count=10 --format='%(refname:short)' refs/heads/"
+    rb = recent-branches    
+dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \"$@\" | diff-so-fancy  | less --tabs=4 -RFX; }; f"
+    conflicts = "diff --name-only --diff-filter=U"
 [core]
     autocrlf = input
 	editor = /usr/bin/vim
