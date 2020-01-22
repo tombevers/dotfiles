@@ -108,11 +108,8 @@ defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebK
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 ###############################################################################
-# Mail                                                                        #
+# Microsoft Office                                                                        #
 ###############################################################################
 
-# Copy email addresses as `foo@example.com` instead of `Foo Bar <foo@example.com>` in Mail.app
-defaults write com.apple.mail AddressesIncludeNameOnPasteboard -bool false
-
-# Disable inline attachements (just show the icons)
-defaults write com.apple.mail DisableInlineAttachmentViewing -bool yes
+# Enable Light mode (Dark Mode is ugly!)
+defaults write com.microsoft.Outlook NSRequiresAquaSystemAppearance -bool yes
