@@ -1,3 +1,7 @@
+
+# Path to your dotfiles.
+export DOTFILES=$HOME/dotfiles
+
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
@@ -8,7 +12,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 
 # Aliases
-source ~/dotfiles/zshalias
+source $DOTFILES/zshalias
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
@@ -43,17 +47,10 @@ plugins=(git tmux)
 
 source $ZSH/oh-my-zsh.sh
 
-# Customize to your needs...
-export PATH=$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:~/.composer/vendor/bin:/Applications/VirtualBox.app/Contents/MacOS
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
-export PATH=/usr/local/share/npm/bin:$PATH
-
-export PATH="$(brew --prefix)/bin:$PATH"
-
-# GRC colorizes nifty unix tools all over the place
-#source `brew --prefix`/etc/grc.bashrc
+# Would you like to use another custom folder than $ZSH/custom?
+ZSH_CUSTOM=$DOTFILES
 
 # Exports
-source ~/dotfiles/exports
+# Set Correct locale
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
