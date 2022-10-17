@@ -27,16 +27,16 @@ After backing up your old Mac you may now follow these install instructions to s
    curl https://raw.githubusercontent.com/tombevers/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
 
-3. Clone this repo to `~/.dotfiles` with:
+3. Clone this repo to `~/dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:tombevers/dotfiles.git ~/.dotfiles
+    git clone --recursive git@github.com:tombevers/dotfiles.git ~/dotfiles
     ```
 
 4. Run the installation with:
 
     ```zsh
-    ~/.dotfiles/install.sh
+    ~/dotfiles/install.sh
     ```
 
 5. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
