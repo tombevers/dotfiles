@@ -27,18 +27,20 @@ brew 'zsh-completions'
 
 # Development
 brew 'php'
-brew 'php@8.0'
 brew 'php@7.4'
+brew 'php@8.0'
+brew 'php@8.1'
 brew 'composer'
 brew 'node'
 brew 'nvm'
+brew 'yarn'
 brew "docker"
 brew "docker-compose", link: false
 brew "docker-machine"
 brew "terraform"
 
 # Apps
-cask 'brave'
+cask 'brave-browser'
 cask 'firefox'
 cask 'google-chrome'
 cask 'alfred'
@@ -46,7 +48,6 @@ cask 'aws-vpn-client'
 cask 'docker'
 cask 'phpstorm'
 cask '1password'
-#cask 'dropbox'
 cask 'sequel-ace'
 cask 'iterm2'
 cask 'spotify'
@@ -57,3 +58,4 @@ cask 'teamviewer'
 #cask 'eid-be-viewer'
 cask 'tableplus'
 cask 'visual-studio-code'
+cask 'postman'
