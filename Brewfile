@@ -35,9 +35,10 @@ brew 'node'
 brew 'nvm'
 brew 'yarn'
 brew "docker"
-brew "docker-compose", link: false
+brew "docker-compose"
 brew "docker-machine"
 brew "terraform"
+brew "nvim"
 
 # Apps
 cask 'brave-browser'
