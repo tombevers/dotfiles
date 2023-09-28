@@ -40,6 +40,11 @@ brew "docker-machine"
 brew "terraform"
 brew "nvim"
 
+
+#Fonts
+cask font-hack-nerd-font
+cask font-roboto-mono-nerd-font
+
 # Apps
 cask 'brave-browser'
 cask 'firefox'

@@ -21,3 +21,4 @@ dsf = "!f() { [ -z \"$GIT_PREFIX\" ] || cd \"$GIT_PREFIX\" && git diff --color \
 	status = false
 [push]
 	default = simple
+	autoSetupRemote = true
